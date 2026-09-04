@@ -35,6 +35,57 @@ CHIP Not {
     
 }
 
+Q-2: Implement XOR, Mux (2-way, 4-way), and DMux chips in HDL.
+
+CHIP Xor {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+    Nand(a=a, b= b, out= anandOut );
+    Nand(a=a , b=anandOut , out=bnandOut );
+    Nand(a=b , b=anandOut, out=cnandOut );
+    Nand(a=bnandOut , b=cnandOut , out=out );
+
+}
+
+CHIP Mux {
+    IN a, b, sel;
+    OUT out;
+
+    PARTS:
+    Not(in=sel,out=notSel);
+    And(a=a , b=notSel , out=w1 );
+    And(a=b, b=sel , out=w2 );
+    Or(a=w1 , b= w2, out=out );
+    
+}
+
+CHIP Mux4Way16 {
+    IN a[16], b[16], c[16], d[16], sel[2];
+    OUT out[16];
+    
+    PARTS:
+    Mux16(a=a , b=b , sel=sel[0] , out=w1 );
+    Mux16(a=c , b=d , sel=sel[0] , out=w2 );
+    Mux16(a=w1 , b=w2 , sel=sel[1] , out=out );
+    
+}
+
+CHIP DMux {
+    IN in, sel;
+    OUT a, b;
+
+    PARTS:
+    Not(in= sel , out= nsel);
+    And(a= in , b= nsel , out=a );
+    And(a= in , b=sel , out=b );
+
+}
+
+
+
+
 
 
 
