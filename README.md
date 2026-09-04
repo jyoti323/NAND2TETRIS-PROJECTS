@@ -83,6 +83,8 @@ CHIP DMux {
 
 }
 
+Q-3: Build the Half Adder and Full Adder chips in HDL.
+
 
 
 
