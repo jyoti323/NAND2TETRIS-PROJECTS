@@ -92,7 +92,7 @@ CHIP FullAdder {
     PARTS:
 
     HalfAdder (a=a, b=b,sum=S1, carry=C1);
-    HalfAdder (a=S1, b=cin,sum=sum, carry=C2);
+    HalfAdder (a=S1, b=c,sum=sum, carry=C2);
 
     Or( a=C1, b=C2, out= carry);
 
