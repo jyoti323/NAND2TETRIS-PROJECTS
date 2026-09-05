@@ -84,6 +84,32 @@ CHIP DMux {
 }
 
 Q-3: Build the Half Adder and Full Adder chips in HDL.
+CHIP FullAdder {
+    IN a, b, c;   
+    OUT sum,     
+        carry;   
+
+    PARTS:
+
+    HalfAdder (a=a, b=b,sum=S1, carry=C1);
+    HalfAdder (a=S1, b=cin,sum=sum, carry=C2);
+
+    Or( a=C1, b=C2, out= carry);
+
+}
+
+CHIP HalfAdder {
+    IN a, b, c;   
+    OUT sum,     
+        carry;   
+
+    PARTS:
+
+    Xor(a=a, b=b,out=sum);
+    And (a=a, b=b,out=carry);
+
+}
+    
 
 
 
