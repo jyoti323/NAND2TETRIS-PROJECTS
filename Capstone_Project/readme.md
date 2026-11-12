@@ -4,9 +4,10 @@ Join your lab chips (gates, ALU, registers, RAM, PC) into CPU.hdl, Memory.hdl an
 
 Check them with the official test files (CPU.tst, Memory.tst, ComputerAdd.tst, ComputerMax.tst, ComputerRect.tst) and take a screenshot of each result. If one of your older chips does not work, you may use the built-in chip, but mention it in your report.
 
-<img width="1365" height="658" alt="Compter" src="https://github.com/user-attachments/assets/28d3ce92-ee62-44f7-8eb7-efa4654900e4" />
-<img width="1366" height="642" alt="Memory" src="https://github.com/user-attachments/assets/da3a8406-7113-454b-b8d3-c71f610cf1b9" />
-<img width="1366" height="618" alt="CPU" src="https://github.com/user-attachments/assets/23bbed7f-bae5-477b-ac4d-ea99513b8fb2" />
+<img width="1365" height="658" alt="computer1" src="https://github.com/user-attachments/assets/f5b906e7-4cde-4bcd-891f-3d383369dd28" />
+<img width="1366" height="650" alt="memory1" src="https://github.com/user-attachments/assets/c90ad54d-e5f1-4832-873a-aff843200da9" />
+<img width="1366" height="651" alt="cpu1" src="https://github.com/user-attachments/assets/cea1600a-5ca6-47b0-a229-a68caa57f051" />
+
 
 
 Part B– Write a small assembler in Python The assembler turns a Hack program (.asm) into 0s and 1s (.hack). ˆ ˆ ˆ ˆ 
