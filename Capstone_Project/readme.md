@@ -1,6 +1,13 @@
-Part A– Build the computer ˆ ˆ ˆ 
+Part A– Build the computer  
+
 Join your lab chips (gates, ALU, registers, RAM, PC) into CPU.hdl, Memory.hdl and Computer.hdl.
+
 Check them with the official test files (CPU.tst, Memory.tst, ComputerAdd.tst, ComputerMax.tst, ComputerRect.tst) and take a screenshot of each result. If one of your older chips does not work, you may use the built-in chip, but mention it in your report.
+
+<img width="1365" height="658" alt="Compter" src="https://github.com/user-attachments/assets/28d3ce92-ee62-44f7-8eb7-efa4654900e4" />
+<img width="1366" height="642" alt="Memory" src="https://github.com/user-attachments/assets/da3a8406-7113-454b-b8d3-c71f610cf1b9" />
+<img width="1366" height="618" alt="CPU" src="https://github.com/user-attachments/assets/23bbed7f-bae5-477b-ac4d-ea99513b8fb2" />
+
 
 Part B– Write a small assembler in Python The assembler turns a Hack program (.asm) into 0s and 1s (.hack). ˆ ˆ ˆ ˆ 
 First reading: remove comments and blank lines, and note where each label like (LOOP) is. 
