@@ -1,4 +1,4 @@
-Part A– Build the computer  
+*Part A– Build the computer*  
 
 Join your lab chips (gates, ALU, registers, RAM, PC) into CPU.hdl, Memory.hdl and Computer.hdl.
 
@@ -10,7 +10,7 @@ Check them with the official test files (CPU.tst, Memory.tst, ComputerAdd.tst, C
 
 
 
-Part B:-
+*Part B:-*
 Write a small assembler in Python The assembler turns a Hack program (.asm) into 0s and 1s (.hack). 
 First reading: remove comments and blank lines, and note where each label like (LOOP) is. 
 Second reading: turn every line into 16 bits. New variables get RAM addresses 16, 17, 18 and so on. Test on Add.asm, Max.asm, Rect.asm and Pong.asm. 
@@ -25,7 +25,11 @@ One extra feature, based on K: K mod 3 Extra feature 0 Save all labels and varia
 <img width="1366" height="707" alt="WhatsApp Image 2026-11-14 at 9 49 00 AM" src="https://github.com/user-attachments/assets/5e275175-d921-4af9-acec-4a693ddb2cac" />
 
 
-PART C :- 
-Write Box.asm in Hack assembly. While any key is pressed, a black box appears. When the key is released, the box disappears. ˆ ˆ 
+*PART C :- *
+Write Box.asm in Hack assembly. While any key is pressed, a black box appears. When the key is released, the box disappears. 
+
 Your box: starts at row K, is 20 rows tall, and is 16 ×((K mod 4)+1) pixels wide from the left edge. 
 Convert it with your own assembler from Part B (not the official one), run it in the CPU Emulator, and take a screenshot of your box.
+
+<img width="1365" height="631" alt="WhatsApp Image 2026-11-14 at 10 31 52 AM" src="https://github.com/user-attachments/assets/5b295f84-ca76-4ecb-9ad9-d1b2598a43e3" />
+
