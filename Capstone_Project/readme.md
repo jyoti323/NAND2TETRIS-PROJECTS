@@ -10,6 +10,8 @@ Check them with the official test files (CPU.tst, Memory.tst, ComputerAdd.tst, C
 
 
 
+
+
 *Part B:-*
 Write a small assembler in Python The assembler turns a Hack program (.asm) into 0s and 1s (.hack). 
 First reading: remove comments and blank lines, and note where each label like (LOOP) is. 
@@ -23,6 +25,8 @@ The output must match the official assembler.
 
 One extra feature, based on K: K mod 3 Extra feature 0 Save all labels and variables with their addresses in symbols.txt. 1 2 For a wrong line, print a clear message with the line number (e.g. Line 7: invalid instruction) instead of crashing. Print a warning if the same label is written twice.
 <img width="1366" height="707" alt="WhatsApp Image 2026-11-14 at 9 49 00 AM" src="https://github.com/user-attachments/assets/5e275175-d921-4af9-acec-4a693ddb2cac" />
+
+
 
 
 *PART C :- *
