@@ -1,1 +1,6 @@
+Q4:
+Trace the stack of machine-level operations for a simple Hack program
 
+that includes I/O (keyboard read or screen write). Explain how memory-
+
+mapped I/O works at the binary level.
