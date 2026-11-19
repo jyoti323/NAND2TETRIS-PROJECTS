@@ -5,5 +5,12 @@ branching with conditional jumps, and (c) a simple loop. Run each on the
 
 CPU Emulator and capture output.
 
+Q2:
+Hand-encode two Hack assembly programs to binary using the A-
+
+instruction and C-instruction formats. Show the comp/dest/jump field
+
+breakdowns.
+
 
 
