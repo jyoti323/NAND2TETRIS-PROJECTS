@@ -4,7 +4,6 @@ Join your lab chips (gates, ALU, registers, RAM, PC) into CPU.hdl, Memory.hdl an
 
 Check them with the official test files (CPU.tst, Memory.tst, ComputerAdd.tst, ComputerMax.tst, ComputerRect.tst) and take a screenshot of each result. If one of your older chips does not work, you may use the built-in chip, but mention it in your report.
 
-<img width="1365" height="658" alt="computer1" src="https://github.com/user-attachments/assets/f5b906e7-4cde-4bcd-891f-3d383369dd28" />
-<img width="1366" height="650" alt="memory1" src="https://github.com/user-attachments/assets/c90ad54d-e5f1-4832-873a-aff843200da9" />
-<img width="1366" height="651" alt="cpu1" src="https://github.com/user-attachments/assets/cea1600a-5ca6-47b0-a229-a68caa57f051" />
+https://private-user-images.githubusercontent.com/206540293/703848625-f5b906e7-4cde-4bcd-891f-3d383369dd28.jpeg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTU2MTgyODYsIm5iZiI6MTc5NTYxNzk4NiwicGF0aCI6Ii8yMDY1NDAyOTMvNzAzODQ4NjI1LWY1YjkwNmU3LTRjZGUtNGJjZC04OTFmLTNkMzgzMzY5ZGQyOC5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MTEyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjExMjVUMTQ0NjI2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWNlYTBhOWIxMGQ0ZmIyYzkyNDcwOWEzYTA4NmU3NjUxZTc2MzU3ZTgzOWYzYjI1ODA0MDA1MzhiNGRiOGNhNCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGanBlZyJ9.U3aFE8b1bd9t5xAjocWRarAHIOdRCqGOqwJbwRPhrKI
+
 
